@@ -1,11 +1,11 @@
 def join_nested_strings(src)
-  string = ''
+  stringArr = []
   src.each do |arr|
     arr.each do |ele|
       if ele.is_a?(String)
-        string += ele
+        stringArr << ele
       end
     end
   end
-  string
+  stringArr.join(''_
 end
