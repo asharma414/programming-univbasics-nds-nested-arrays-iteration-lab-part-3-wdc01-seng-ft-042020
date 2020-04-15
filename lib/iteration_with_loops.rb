@@ -5,6 +5,7 @@ def join_nested_strings(src)
       if ele.is_a?(String)
         string += ele
       end
+    end
   end
   string
 end
