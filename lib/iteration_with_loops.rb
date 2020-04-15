@@ -1,7 +1,7 @@
 def join_nested_strings(src)
   string = ''
   src.each do |ele|
-    if type(ele) == String
+    if ele.is_a?(String)
       string += ele
     end
   end
